@@ -1,18 +1,18 @@
 __pycache__/
 *.pyc
 
-models/
+models1/
 
 swanlog/
 
 
-dataset/
+dataset1/
 
 
 
-out/
+out1/
 
-outs/
+outs1/
 
 scripts/dataset.json
 trainer/eval_output/
