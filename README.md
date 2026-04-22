@@ -1,6 +1,18 @@
 # 🚀 AutoPrompt2Image
 
-**LLM-powered prompt optimization for Stable Diffusion with LoRA-enhanced image generation.**
+<p align="center">
+  <img src="assets/example_0.png" width="250"/>
+  <img src="assets/example_1.png" width="250"/>
+  <img src="assets/example_2.png" width="250"/>
+</p>
+
+<p align="center">
+  <b>LLM-powered prompt optimization for Stable Diffusion with LoRA-enhanced image generation.</b>
+</p>
+
+<p align="center">
+  Turn natural language into high-quality AI-generated images.
+</p>
 
 AutoPrompt2Image is an end-to-end pipeline that leverages a LLaMA-based language model to transform raw user input into high-quality, diffusion-ready prompts, and generates images using a LoRA fine-tuned Stable Diffusion model.
 
@@ -46,7 +58,7 @@ pip install -r requirements_gendata.txt
 ## 🚀 Usage
 
 ```bash
-python main.py --prompt "a cat in van gogh style"
+python scripts/main.py --prompt "a cat in van gogh style"
 ```
 
 ---
@@ -55,13 +67,13 @@ python main.py --prompt "a cat in van gogh style"
 
 ```text
 AutoPrompt2Image/
-│── scripts/
-│── models/                
-│── trainer/               
-│── dataset/               
-│── outs/              
+│── scripts/        # inference / entry scripts
+│── models/         # model checkpoints (not included)
+│── trainer/        # training code (LoRA, SFT)
+│── dataset/        # training data (not included)
+│── outs/           # generated images             
 │── requirements_gendata.txt
-|── requirements_genimage.txt
+│── requirements_genimage.txt
 │── README.md
 ```
 
