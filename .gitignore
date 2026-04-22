@@ -1,26 +1,28 @@
 __pycache__/
 *.pyc
-# 模型
+
 models/
 
 swanlog/
 
-# 数据
+
 dataset/
 
 
-# 输出
+
 out/
+
 outs/
+
 scripts/dataset.json
 trainer/eval_output/
 trainer/lora_model/
 trainer/swanlog/
 
-# 环境
+
 .vscode/
 .env
 venv/
 
-# 日志
+
 *.log
